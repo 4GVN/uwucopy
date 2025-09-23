@@ -2,6 +2,7 @@
 
 **uwucopy** is a Firefox browser extension that adds a context menu option to copy a **cleaned URL** from the current page.  
 It removes tracking parameters and unnecessary junk from links on popular sites, giving you short and privacy-friendly URLs.
+It currently still uses **Manifest V2**
 
 ## Supported Sites
 uwucopy currently cleans URLs from:
