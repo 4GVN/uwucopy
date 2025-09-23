@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "uwucopy",
+  "version": "1.0",
+  "description": "Copies a cleaned version of the current page URL without tracking junk.",
+  "permissions": [
+    "contextMenus",
+    "clipboardWrite",
+    "tabs",
+    "notifications"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png",
+    "128": "icon128.png"
+  }
+}
